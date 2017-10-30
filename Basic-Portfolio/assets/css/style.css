@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+} 
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}   
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding-top: 30px;
+}
+hr {
+    color: gray;
+    height: 2px;
+}
+a:link {
+    color: #666666;
+    text-decoration: none;
+}
+a:visited {
+    color: #666666;
+    text-decoration: none;
+}
+a:hover {
+    color: #666666;
+    text-decoration: underline;
+}
+.navlinks {
+    
+}
+.topwhitebar {
+    padding: 42px;
+    margin: 0px;
+    background-color: white;
+    position: relative;
+    border-bottom: 1px solid gray;
+}
+header {
+    background-color: #4aaaa5;
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    color: white;
+    margin-left: 100px;
+    padding: 30px;
+}
+nav {
+    position: absolute;
+    left: 672px;
+    top: 35px;
+}
+.background {
+    background-image: url("https://raw.githubusercontent.com/sstrubberg/Basic-Portfolio/master/assets/images/stonehaven.png");
+}
+.wrapper {
+    overflow: auto;
+    width: 960px;
+    padding-top: 34px;
+    padding-bottom: 296px;
+    margin-bottom: 0px;
+    position: relative;
+}
+.aboutme {
+    background-color: white;
+    padding: 28px 28px 28px 28px;
+    margin: 0px 347px 0px 109px;
+    
+    float: left;
+    position: absolute;
+    left: 0;
+}
+.profilepic {
+    width: 150px;
+    float: left;
+    padding-right: 15px;
+}
+.wordswordswords {
+    
+    line-height: 150%;
+}
+.connect {
+    background-color: white;
+    padding: 0px 20px 20px 20px;
+    margin: 0px 107px 0px 654px;
+    text-align: center;
+}
+.social-icons {
+    width: 50px;
+   
+}
+.bottomgraybar {
+    clear: both;
+    padding: 42px;
+    margin: 0px;
+    background-color: #666666;
+    position: relative;
+    border-top: 8px solid #4aaaa5;  
+}
+footer {
+    color: rgb(209, 209, 209);
+    text-align: center;  
+    font-size: 10px;
+}
+.contact-me {
+    background-color: white;
+    padding: 28px 28px 28px 28px;
+    margin: 0px 360px 0px 112px;
+    float: left;
+    position: absolute;
+    left: 0;
+}
+.formy2 {
+    clear: both;
+    line-height: 150%;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #2f6e6e;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    color: rgb(139, 139, 139);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    resize: none;
+}
+.pictureframe {
+    float: left;
+    position: relative;
+}
+.portfoliopic {
+    width: 213px;
+    padding: 9px;   
+}
+
+img {
+    width: 213px;
+}
+.greenbar1 {
+    position: absolute;
+    background-color: #4aaaa5;
+    bottom: 28px;
+    left: 4%;
+    color: white;
+    padding: 11px 63px;
+}
+.greenbar2 {
+    position: absolute;
+    background-color: #4aaaa5;
+    bottom: 28px;
+    left: 4%;
+    color: white;
+    padding: 11px 52px;
+}
+.greenbar3 {
+    position: absolute;
+    background-color: #4aaaa5;
+    bottom: 28px;
+    left: 4%;
+    color: white;
+    padding: 11px 55px;
+}
+.greenbar4 {
+    position: absolute;
+    background-color: #4aaaa5;
+    bottom: 30px;
+    left: 4%;
+    color: white;
+    padding: 10px 31px;
+}
+.greenbar5 {
+    position: absolute;
+    background-color: #4aaaa5;
+    bottom: 30px;
+    left: 4%;
+    color: white;
+    padding: 10px 31px;
+}
+@media screen and (max-width:980px) {
+
+}
+
+@media screen and (max-width:768px) {
+    
+}
+
+@media screen and (max-width:640px {
+    
+}
